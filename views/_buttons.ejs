@@ -1,0 +1,12 @@
+<div class="buttons-wrapper">
+    <a href="/" class="logo">shareKit</a>
+    <div class="buttons">
+        <a href="/new" class="btn" title="New">➕</a>
+        <% if (locals.canSave) { %>
+            <button class="btn" type="submit" title="Save">💾</button>
+            <% } %>
+                <% if(locals.id !=null) { %>
+                    <a href="/<%= locals.id %>/duplicate" class="btn" title="Duplicate">📝</a>
+                    <%}%>
+    </div>
+</div>
