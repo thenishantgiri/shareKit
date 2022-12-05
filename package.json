@@ -1,0 +1,27 @@
+{
+  "name": "sharekit",
+  "version": "1.0.0",
+  "description": "Share Your Code",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thenishantgiri/shareKit.git"
+  },
+  "author": "Nishant Kumar Giri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thenishantgiri/shareKit/issues"
+  },
+  "homepage": "https://github.com/thenishantgiri/shareKit#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
